@@ -1,20 +1,23 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
-int Main()
+/**
+ * main: random numbers
+ *
+ * Return: 0
+ */
+int main(void)
 {
 	int n;
 
-	printf(n)
-	scanf( "%d" , $n );
-	if (n > 0);
-	printf(n is positive\n)
-}
-else if (n == 0);
-{
-	printf( n is zero\n)
-}
-else if ( n < 0);
-{
-	printf(n is negative)
-}
-return o;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	printf("\%d is positive\n , n);
+	else if (n == 0)
+	printf("\%d is zero\n , n);
+	else (n < 0)
+	printf("%d is negative\n , n);
+	return (0);
+};
